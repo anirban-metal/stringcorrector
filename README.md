@@ -4,8 +4,7 @@ An implementation based on MTrees and Levenshtein distance to find the nearest s
 ## build
 This project uses Java 1.8+ and maven as it's build toolchain. To build and run execute 
 
-mvn compile 
-mvn exec:java -Dexec.mainClass="org.free.App"
+mvn compile && mvn exec:java -Dexec.mainClass="org.free.App"
 
 ## usage
 The main app has a terminal interface similar to ncurses. You can add a string, search the nearest string,
